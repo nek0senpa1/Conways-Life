@@ -365,7 +365,8 @@ class Game extends React.Component {
                         set it up.  So I'd personally say it's more like a simulation.  I even thought of
                         it like a little Sim City.  I got it off to a good start, where it goes... well
                         that part is seemingly predictable.  In both games!  And considering that our good
-                        buddy John was working with Ulam's game (go google that one ;p), and others.  
+                        buddy John was working with Ulam's game (go google that one ;p), and others, so I don't 
+                        guess that's really all that surprising.  
                     </p>
                     <p>
                         The idea is that it's a 2D grid of squares.  Why squares, because that's the easiest
@@ -396,9 +397,11 @@ class Game extends React.Component {
                         moving forward to the next item when inhospitable conditions are found.  Or perhaps it 
                         will simply be used as a teaching tool for computer science for the forseeable future...
                     </p>
+                    <p>Or perhaps AI's will set it up in the future
+                        and determin our fate with it after watching for a while. Who knows...</p>
                     
                 </div>
-                </div>
+                </div> 
 
 
             </div>
