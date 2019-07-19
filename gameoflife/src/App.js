@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Holder from './Holder';
+
 function App() {
   return (
     <div className="App">
@@ -12,6 +14,9 @@ function App() {
         </p>
         
       </header>
+
+      <Holder />
+
     </div>
   );
 }
