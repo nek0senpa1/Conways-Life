@@ -45,10 +45,14 @@ class Game extends React.Component {
 
     empty() {
         let board = [];
+
         for (let y = 0; y < this.rows; y++) {
             board[y] = [];
+
             for (let x = 0; x < this.columns; x++) {
+
                 board[y][x] = false;
+
             }
         }
 
@@ -56,7 +60,9 @@ class Game extends React.Component {
     }
 
     getElementOffset() {
-        const rect = this.boardRef.getBoundingClientRect();
+
+        let rect = this.boardRef.getBoundingClientRect();
+
         const doc = document.documentElement;
 
         return {
@@ -163,12 +169,14 @@ class Game extends React.Component {
     
 
     clearIt = () => {
+
         this.board = this.empty();
         this.setState({ cells: this.makeCells() });
     }
 
 
     handleIntervalChange = (event) => {
+
         this.setState({ interval: event.target.value });
     }
 
@@ -343,6 +351,14 @@ class Game extends React.Component {
 
                 <div>
                     Run Evewry <input value={this.state.interval} onChange={this.handleIntervalChange} /> ms!
+                </div>
+
+
+                
+                <div>
+                    <hr></hr>
+                    <h2>Conway's Game of Life</h2>
+                    <p>Other Stuff About him...</p>
                 </div>
 
 
