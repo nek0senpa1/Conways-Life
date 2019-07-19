@@ -1,0 +1,30 @@
+    
+.Board {
+    position: relative;
+    margin: 0 auto;
+    background-color: rgb(29, 9, 9);
+
+    font-size: 1.2rem;
+    
+    background-image:
+        linear-gradient(rgb(148, 141, 141) 1px, transparent 1px),
+        linear-gradient(90deg, rgb(172, 156, 156) 1px, transparent 1px);
+}
+
+.Cell {
+
+    background: #ccc;
+
+    position: absolute;
+}
+
+.controls {
+
+    margin: 10px;
+}
+
+.buttony {
+
+    margin-left: 12px;
+    cursor: pointer;
+}
