@@ -1,6 +1,6 @@
     
 .Board {
-    position: relative;
+    position: center;
     margin: 0 auto;
     background-color: rgb(29, 9, 9);
 
@@ -11,6 +11,11 @@
         linear-gradient(90deg, rgb(172, 156, 156) 1px, transparent 1px);
 }
 
+.controls {
+
+    margin: 10px;
+}
+
 .Cell {
 
     background: #ccc;
@@ -18,9 +23,16 @@
     position: absolute;
 }
 
-.controls {
+.container {
+    display: flex;
+    justify-content: center;
+}
 
-    margin: 10px;
+.monologue {
+    align-content: center;
+    align-items: center;
+
+    width: 70%;
 }
 
 .buttony {

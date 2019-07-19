@@ -352,13 +352,52 @@ class Game extends React.Component {
                 <div>
                     Run Evewry <input value={this.state.interval} onChange={this.handleIntervalChange} /> ms!
                 </div>
+                <br>
+                </br>
 
 
-                
-                <div>
+                <div className="container">
+                <div className="monologue">
                     <hr></hr>
                     <h2>Conway's Game of Life</h2>
-                    <p>Other Stuff About him...</p>
+                    <p>This little life/celular automation was created by a dude called John Conway in 
+                        1970.  It's a no player game.  Or at least everyone says that, someone still has
+                        set it up.  So I'd personally say it's more like a simulation.  I even thought of
+                        it like a little Sim City.  I got it off to a good start, where it goes... well
+                        that part is seemingly predictable.  In both games!  And considering that our good
+                        buddy John was working with Ulam's game (go google that one ;p), and others.  
+                    </p>
+                    <p>
+                        The idea is that it's a 2D grid of squares.  Why squares, because that's the easiest
+                        way to program... probably.  Anyway.  On this grid, each square has two options:
+                        Dead or Alive... or perhaps true or false... or maybe even beach volleyball.  Every
+                        one of these little squares interacts with it's neighbors.  Now any cell with fewer
+                        than two neighbors is gonna die.  And any cell with two or three will live on to
+                        the next generation.  But, any cell with more than three neighbors is going to die.  
+                        And lastly, a dead cell is brought back to life if there are 3 neighbors.
+                        Now I like to think of that like populations of cave people. They die alone, but they
+                        also die if there are to many of them and they run out of resources.  Or, as a sci-fi
+                        fan, looking at the 'gliders' that occur and can move along/away from others. An interstellar
+                        diaspora  (ala Heinlein).  ;p
+                    </p>
+                    <p>
+                        I guess the big deal here is that Conway's Game of Life is a universal Turing machine.
+                        You guys remember Turing right?  Doctor Strange played him in the movie called 
+                        'The Imitation Game', which is seemingly very aptly titled when one starts looking into
+                        all of this.  But anyway, it's basically life being simulated.  Per my caveman example
+                        it can make/predict real life processes.  Or, again as a sci-fi fan, this thing might
+                        actually be able to pass the Voight-Kampff Test.  Look out Harrison ( and Gosling if 
+                        you're a real fan).
+                    </p>
+                    <p>
+                        So, how do we end this little conversation of ours?  ... I guess this guy made a great 
+                        little brain game.  Perhaps the proliferation of his pixels will help us reach out into
+                        the cosmos with our algorithms that look for alien life.  Constantly reavaluating and
+                        moving forward to the next item when inhospitable conditions are found.  Or perhaps it 
+                        will simply be used as a teaching tool for computer science for the forseeable future...
+                    </p>
+                    
+                </div>
                 </div>
 
 
